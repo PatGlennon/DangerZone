@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Report a Danger Zone"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+
+		<TextView
+		    android:id="@+id/danger_type_label"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Danger Type:"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<Spinner
+		    android:id="@+id/danger_type_spinner"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/danger_level_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danger Level:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Spinner
+        android:id="@+id/danger_level_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Medium Text"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<Button
+	    android:id="@+id/btnAdd"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Add DangerZone" />
+
+</LinearLayout>

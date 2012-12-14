@@ -1,0 +1,26 @@
+<resources>
+
+    <string-array name="danger_types">
+        <item>Violence</item>
+        <item>Accident</item>
+        <item>Weather</item>
+        <item>Unclassified</item>
+    </string-array>
+    <string-array name="danger_levels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="app_name">DangerZone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_danger_zone">DangerZone</string>
+    <string name="about">About</string>
+    <string name="title_activity_danger_report">DangerReport</string>
+    <string name="report_danger">Report a Danger Zone</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>
